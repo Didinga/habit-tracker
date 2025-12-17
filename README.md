@@ -6,12 +6,38 @@ Level 2 Habit Tracker je jednoduchá Python aplikace pro sledování osobních n
 
 ## 🚀 Funkce Level 2
 
-- Persistovaná data pomocí **SQLite**
-- Oddělená architektura: `UI / Logic / Database`
-- Přehled návyků s počtem splnění a streaky
-- Barevné zvýraznění podle streaku:
-  - 🟢 zelená → streak ≥ 7
-  - 🟠 oranžová → aktivní streak
-  - ⚪ šedá → žádná konzistence
-- Graf pokroku pro každý návyk (matplotlib)
-- Jednoduché přidávání a označování splněných návyků
+- Persistovaná data pomocí **SQLite**  
+- Oddělená architektura: `UI / Logic / Database`  
+- Přehled návyků s počtem splnění a streaky  
+- **Barevné zvýraznění podle streaku:**
+  - 🟢 zelená → streak ≥ 7  
+  - 🟠 oranžová → aktivní streak  
+  - ⚪ šedá → žádná konzistence  
+- **Graf pokroku** pro každý návyk (matplotlib)  
+- Jednoduché přidávání a označování splněných návyků  
+---
+
+## ⚡ Instalace a spuštění
+
+Postup pro rychlé spuštění Habit Tracker Level 2:
+
+1. **Klonování repozitáře:**
+
+   ```bash
+   git clone https://github.com/Didinga/habit-tracker.git
+   cd habit-tracker
+   ```
+
+2. **Instalace závislostí:**
+
+   ```bash
+   pip3 install matplotlib
+   ```
+
+3. **Spuštění aplikace:**
+
+   ```bash
+   python3 app.py
+   ```
+
+---
